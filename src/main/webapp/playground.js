@@ -1,6 +1,7 @@
 function buttonPressed() {
-    var text = document.getElementById("firstInput").value;
+    var text = document.getElementById("firstInput").value.replace(/\s/g, "");
     var reversed = "";
+
     for(var index in text.split("")){
         reversed += String.fromCharCode(text.charCodeAt(index)+1);
     }
