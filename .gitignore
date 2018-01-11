@@ -1,0 +1,28 @@
+# exclude target directories
+target
+**/target/
+**/git.properties
+
+# mvn plugins
+release.properties
+pom.xml.releaseBackup
+
+# eclipse project files and directories
+.classpath
+.project
+.settings
+.recommenders
+.metadata
+
+# exclude IntelliJ IDEA files
+.idea
+**/*.iml
+
+# exclude .svn directories
+.svn
+**/.svn/
+
+# other Folders
+test-output
+
+**/MANIFEST.MF
