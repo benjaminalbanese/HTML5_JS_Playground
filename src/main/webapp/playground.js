@@ -1,4 +1,5 @@
 function buttonPressed() {
+    // yet another comment
     var text = document.getElementById("firstInput").value.replace(/\s/g, "");
     var reversed = "";
 
